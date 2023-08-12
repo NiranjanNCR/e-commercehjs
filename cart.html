@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NRJ E-store</title>
+    <!-- <link rel="stylesheet" href="./script.js"> -->
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="./style.css">
+<body>
+    
+<section id="header">
+    <a href="#"><img src="./img/logo (1).png" class="logo" alt=""></a>
+
+    <div></div>
+    <ul id="navbar">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./shop.html">Shop</a></li>
+        <li><a  href="./blog.html">Blog</a></li>
+        <li><a  href="./contact.html">Contact</a></li>
+        <li><a  href="./about.html">About</a></li>
+        <li class="card"><a class="active" href="./cart.html"><i class="fa-solid fa-cart-shopping"></i><span>0</span></a></li>
+         <a href="#" id="close"><i class="fa-regular fa-rectangle-xmark"></i></a>
+    </ul>
+</div>
+<div id="mobile" class="card">
+        <a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i><span>0</span></a>
+        <i id="bar" class="fas fa-outdent"></i>
+    </div>
+</section>
+    
+<section id="page-header" class="about-header">
+    <h2>#Let's_talk</h2>
+    <p>Time to contact Us</p>
+
+</section>
+
+
+<!-- <section id="cart" class="section-p1">
+    <table width="100%">
+        <thead>
+            <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Subtotal</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="btn-remove"><a href=""><i class="far fa-times-circle"></i></a></td>
+                <td><img src="img/products/f1.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirt</td>
+                <td>Rs.560</td>
+                <td><input type="number" value="1"></td>
+                <td>Rs.560</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td ><a href=""><i class="far fa-times-circle"></i></a></td>
+                <td><img src="img/products/f1.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirt</td>
+                <td>Rs.560</td>
+                <td><input type="number" value="1"></td>
+                <td>Rs.560</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td ><a href=""><i class="far fa-times-circle"></i></a></td>
+                <td><img src="img/products/f1.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirt</td>
+                <td>Rs.560</td>
+                <td><input type="number" value="1"></td>
+                <td>Rs.560</td>
+            </tr>
+        </tbody>
+    </table>
+</section> -->
+
+<section class="products-container">
+    <div class="slide-product">
+    <div class="product-header">
+        <h5 class="product-title">PRODUCT</h5>
+        <h5 class="price">PRICE</h5>
+        <h5 class="quantity">QUANTITY</h5>
+        <h5 class="total">TOTAL</h5>
+    </div>
+    <div class="products">
+
+    </div>
+</div>
+</section>
+
+<section id="cart-add" class="section-p1">
+    <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+            <input type="text" placeholder="Enter Your Coupon">
+            <button class="normal">Apply</button>
+        </div>
+    </div>
+
+    <!-- <div id="subtotal">
+        <h3>Cart Total</h3>
+        <table>
+            <tr>
+                <td>Cart Subtotal</td>
+                <td>Rs.635</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>Rs.120</td>
+            </tr>
+        </table>
+        <button class="normal">Proceed to checkout</button>
+    </div> -->
+</section>
+
+<footer class="section-p1">
+    <div class="col">
+        <img src="img/logo (1).png" alt="">
+        <h4>Contact</h4>
+        <p><strong>Address: </strong>35 Badarpur, street 12, New Delhi</p>
+        <p><strong>Phone:</strong>+91 127428613</p>
+        <p><strong>Hours:</strong>10:00 - 18:00, Mon-Sat</p>
+        <div class="follow">
+            <h4>Follow us</h4>
+            <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+    </div>
+
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign in</a>
+        <a href="#">View Cart</a>
+        <a href="#">My wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+    </div>
+
+    <div class="col install">
+          <h4>Install App</h4>
+          <p>From App Store Or Google Play</p>
+          <div class="row">
+              <img src="img/pay/app.jpg" alt="">
+              <img src="img/pay/play.jpg" alt="">
+          </div>
+          <p>Secured Payment Gateway</p>
+          <img src="img/pay/pay.png" alt="">
+    </div>
+
+</footer>
+<div class="copyright">
+    <p>All rights resverved @ Store (2023)</p>
+</div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
